@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import logo from '../assets/nav-logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,10 +19,10 @@ const Navbar = () => {
         <span />
       </div>
       <ul className={`nav-links ${isOpen ? 'show' : ''}`}>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/skills">Skills</Link></li>
+        <li><Link to="/achievements">Achievements</Link></li>
+        <li><Link to="/experience">Experience</Link></li>
       </ul>
     </nav>
   );
