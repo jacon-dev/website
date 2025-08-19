@@ -1,0 +1,24 @@
+.achievement-columns {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.achievement-col {
+    flex: 1;
+    min-width: 250px;
+}
+
+.achievement-col section {
+    margin-bottom: 30px;
+}
+
+.achievement-col h2 {
+    margin-top: 15px;
+    color: #BF20F0;
+}
+
+.achievement-col h3 {
+    margin-top: 15px;
+    color: #FD9C00;
+}
