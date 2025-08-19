@@ -1,0 +1,17 @@
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.education-table th,
+.education-table td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: left;
+}
+
+.education-table th {
+    background: #353535;
+    color: #BF20F0;
+}

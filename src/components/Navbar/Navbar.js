@@ -23,6 +23,7 @@ const Navbar = () => {
         <li><Link to="/skills">Skills</Link></li>
         <li><Link to="/achievements">Achievements</Link></li>
         <li><Link to="/experience">Experience</Link></li>
+        <li><Link to="/education">Education</Link></li>
       </ul>
     </nav>
   );
