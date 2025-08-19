@@ -22,7 +22,7 @@ const About = () => (
       <p>
         I'm a software engineer and technical leader with over a decade of experience designing resilient, scalable systems that deliver real value.
         From architecting greenfield solutions in .NET and React to spearheading incident response across global teams, I thrive at the intersection of engineering precision and human impact.
-        My work spans CRM migrations, real-time monitoring, and automation frameworks—each project grounded in agile principles and a commitment to clean, maintainable code.
+        My work spans CRM migrations, real-time monitoring, and automation frameworks with each project grounded in agile principles and a commitment to clean, maintainable code.
       </p>
       <p>
         Beyond the codebase, I’m passionate about empowering others. 
