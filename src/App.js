@@ -5,6 +5,7 @@ import Skills from './components/Skills/Skills';
 import Experience from './components/Experience/Experience';
 import Achievements from './components/Achievements/Achievements';
 import Education from './components/Education/Education';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/education" element={<Education />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
