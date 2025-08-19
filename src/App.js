@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import About from './components/About/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
-import Achievements from './components/Achievements';
+import Achievements from './components/Achievements/Achievements';
 
 function App() {
   return (
