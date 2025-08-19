@@ -1,0 +1,24 @@
+.skills-columns {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.skills-col {
+    flex: 1;
+    min-width: 250px;
+}
+
+.skills-col section {
+    margin-bottom: 30px;
+}
+
+.skills-col h2 {
+    margin-top: 15px;
+    color: #BF20F0;
+}
+
+.skills-col h3 {
+    margin-top: 15px;
+    color: #FD9C00;
+}

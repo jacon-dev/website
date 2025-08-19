@@ -1,6 +1,11 @@
 .content-div
 {
     margin: 20px;
+    max-width: 1250px;
+}
+
+p {
+    text-align: justify;
 }
 
 .gradient-divider {
