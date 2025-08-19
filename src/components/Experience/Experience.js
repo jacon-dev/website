@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Global.css';
+import '../Global.css';
 import './Experience.css';
-import companies from './experienceData'
+import companies from './data/experienceData'
 
 const Experience = () => {
 

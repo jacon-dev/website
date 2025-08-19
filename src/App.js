@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './components/About/About';
 import Skills from './components/Skills';
-import Experience from './components/Experience';
+import Experience from './components/Experience/Experience';
 import Achievements from './components/Achievements/Achievements';
 
 function App() {
