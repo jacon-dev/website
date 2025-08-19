@@ -11,10 +11,11 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path="/" element={<About />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/experience" element={<Experience />} />
         <Route path="/achievements" element={<Achievements />} />
+        <Route path="/experience" element={<Experience />} />
       </Routes>
     </BrowserRouter>
     </>
