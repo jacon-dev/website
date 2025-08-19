@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -8,7 +8,7 @@ import Achievements from './components/Achievements';
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/website'>
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
@@ -16,6 +16,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
     </>
