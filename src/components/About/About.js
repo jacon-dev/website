@@ -1,7 +1,7 @@
 import React from 'react';
-import './Global.css';
+import '../Global.css';
 import './About.css';
-import profile from '../assets/profile.jpg';
+import profile from '../../assets/profile.jpg';
 
 const About = () => (
   <div class="content-div">
