@@ -1,5 +1,33 @@
 const companies = [
   {
+    name: "Sainsbury's Tech, Digital and Data",
+    period: "June 2025 to Present",
+    roles: [
+      {
+        title: "Senior Software Engineer",
+        period: "June 2025 to Present",
+        details: (
+          <>
+            <h2>Senior Software Engineer</h2>
+            <p>
+              I'm a senior software engineer working in a self organising agile team of nine engineers with a DevOps mindset, responsible for delivering a core commercial transformation program for finance.
+              I work closely with the transformation project team and finance architects to take high-level designs and delivery enterprise level integration solutions for SAP in the finance area.
+            </p>
+            <p>
+              I work closely with the product team to translate product requirements into meaningful solutions, ensuring that we deliver value to the business and our customers.
+              I actively participate in all squad ceremonies, including sprint planning, daily stand-ups, and personally lead retrospectives to ensure that we are continuously improving our processes and delivering high-quality software and are accountable for our commitments.
+              I have actively driven the migration of some of our software solutions from Azure to AWS to help reduce costs and improve performance, security, scalability, reliability and observability.
+            </p>
+            <p>
+              I have also taken the lead on driving an engineering mindset change within the squad, helping to evolve our software development practices, principles, and coding standards.
+              I ensure that the team is up to date with the latest technologies and practices, and I encourage a culture of learning and growth. 
+            </p>
+          </>
+        )
+      }
+    ]
+  },
+  {
     name: "ENSEK",
     period: "September 2020 to June 2025",
     roles: [
