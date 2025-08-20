@@ -20,6 +20,10 @@
     transition: color 0.2s;
 }
 
+.project-item:hover {
+    color: #FD9C00;
+}
+
 .project-item.active .project-label {
     color: #BF20F0;
     font-weight: bold;
