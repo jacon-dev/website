@@ -10,7 +10,7 @@ const companies = [
           <>
             <h2>Senior Software Engineer</h2>
             <p>
-              I'm a senior software engineer working in a self organising agile team of nine engineers with a DevOps mindset, responsible for delivering a core commercial transformation program for finance.
+              I'm a senior software engineer working in a self organising, global agile team of nine engineers with a DevOps mindset, responsible for delivering a core commercial transformation program for finance.
               I work closely with the transformation project team and finance architects to take high-level designs and delivery enterprise level integration solutions for SAP in the finance area.
             </p>
             <p>
