@@ -26,6 +26,7 @@ const Navbar = () => {
         <li><Link to="/achievements" onClick={toggleMenu}>Achievements</Link></li>
         <li><Link to="/experience" onClick={toggleMenu}>Experience</Link></li>
         <li><Link to="/education" onClick={toggleMenu}>Education</Link></li>
+        <li><Link to="/projects" onClick={toggleMenu}>Projects</Link></li>
         <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
       </ul>
     </nav>
