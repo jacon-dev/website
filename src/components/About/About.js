@@ -32,7 +32,7 @@ const About = () => (
       <p>
         Outside of work I'm a father first and foremost to three beautiful girls, spending as much time where I can with them.
         I'm also a keen gamer, whether its solo or with friends, playing games that span the genres of FPS and RPG's, such as The Witcher, Battlefield, Final Fantasy, Zelda and many more.
-        I also enjoy reading, with a preference for graphic novesl from Marvel, Star Wars, Sandman and many more.
+        I also enjoy reading, with a preference for graphic novels from Marvel, Star Wars, Sandman and many more. I also enjoy mountain biking and hiking, exploring the great outdoors whenever I can.
       </p>
     </div>
   </div>

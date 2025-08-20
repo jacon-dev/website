@@ -167,7 +167,7 @@ const companies = [
             </p>
             <p>
               I then took it upon myself to design and deliver a replacement monitoring tool for the incident management team. 
-              The old tool, written in WinForms, had hardcoded individual credentials, use inefficient SQL queries and was not very performant. 
+              The old tool, written in WinForms, had hardcoded individual credentials, used inefficient SQL queries and was not very performant. 
               I replaced this with a modern WPF equivalent that was more secure, set across a three-tier architecture and enhanced to allow individual teams to create their own monitoring solutions for day-to-day purposes. 
               I got significant praise from leadership for the introduction of a critical tool that remained in use after I left.
             </p>
