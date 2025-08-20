@@ -38,28 +38,28 @@ const companies = [
           <>
             <h2>Lead Software Engineer</h2>
             <p>
-              I’m the technical lead in an agile team of five software engineers and three quality assurance engineers, responsible for working directly with the Product team and Architects to translate product requirements and high-level designs into meaningful solutions. 
-              I do this through technical discovery and proof of concept work that allows me outline and refine implementation details for each feature and story. 
-              From this I create low level technical design documentation using C4 modelling which I use to support and guide the engineers within the team on the delivery.
+              I was the technical lead in an agile team of five software engineers and three quality assurance engineers, responsible for working directly with the Product team and Architects to translate product requirements and high-level designs into meaningful solutions. 
+              I did this through technical discovery and proof of concept work that allowed me outline and refine implementation details for each feature and story. 
+              From this I created low level technical design documentation using C4 modelling which I used to support and guide the engineers within the team on the delivery.
             </p>
             <p>
-              I directly support each engineer with their delivery as needed, coaching through pair programming where necessary and providing code reviews on all work that passes through the team, giving encouragement and constructive feedback where possible. 
-              I have also collaborated directly with underperforming individuals to help stabilise their professional careers and help develop the right foundations, both technically and mentally, to foster personal growth and success in their roles.
+              I directly supported each engineer with their delivery as needed, coaching through pair programming where necessary and providing code reviews on all work that passed through the team, giving encouragement and constructive feedback where possible. 
+              I also collaborated directly with underperforming individuals to help stabilise their professional careers and help develop the right foundations, both technically and mentally, to foster personal growth and success in their roles.
             </p>
             <p>
-              I attend all squad scrum rituals as well as supporting wider tribe ceremonies for cross team and cross functional planning, engaging with other tribes and teams outside of my own where necessary to provide domain expertise as needed. 
-              I also work with other lead engineers within the tribe to help continually evolve our software development practices, principals and coding standards and then ensuring I keep the team abreast of any changes. 
-              I also champion technical debt within the squad and tribe, actively raising technical debt work where I spot it and driving technical debt work back into the teams to help reduce its impact on our codebase.
+              I attended all squad scrum rituals as well as supporting wider tribe ceremonies for cross team and cross functional planning, engaging with other tribes and teams outside of my own where necessary to provide domain expertise as needed. 
+              I also worked with other lead engineers within the tribe to help continually evolve our software development practices, principals and coding standards and then ensuring I kept the team abreast of any changes. 
+              I also championed technical debt within the squad and tribe, actively raising technical debt work where I spotted it and driving technical debt work back into the teams to help reduce its impact on our codebase.
             </p>
             <p>
-              I work directly with the Service Desk and Incident Management team on high priority incidents when these fall into my domain. 
-              I must be responsive and work quickly to help diagnose issues as early as possible, prioritise workloads and then ensure timely testing and delivery of fixes to help restore services. 
+              I worked directly with the Service Desk and Incident Management team on high priority incidents when these fall into my domain. 
+              I had to be responsive and work quickly to help diagnose issues as early as possible, prioritise workloads and then ensure timely testing and delivery of fixes to help restore services. 
               I also developed the first iteration of real time monitoring for our product using New Relic against our tribe’s key performance indicators, giving us a reliable early warning system to potential production incidents both for release windows and day to day.
             </p>
             <p>
               I have driven the migration of our old Java automation framework into .NET, upgraded the framework to .NET 8 and delivered an Azure DevOps build pipeline that integrates with SonarQube for a robust quality gate. 
               I introduced the core functionality to allow us to evaluate frontend functionality using Selenium and migrated the projects BDD framework from SpecFlow to Reqnroll to avoid licensing issues. 
-              Alongside this I also spend time every week coaching our quality assurance engineers in .NET fundamentals and best practices by way of coding katas and test-driven development.
+              Alongside this I also spent time every week coaching our quality assurance engineers in .NET fundamentals and best practices by way of coding katas and test-driven development.
             </p>
           </>
         ),
