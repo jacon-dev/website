@@ -11,7 +11,7 @@ import Projects from './components/Projects/Projects';
 function App() {
   return (
     <>
-    <BrowserRouter basename='/website'>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
