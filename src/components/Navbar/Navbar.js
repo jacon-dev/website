@@ -11,7 +11,9 @@ const Navbar = () => {
   return (
     <nav class="navbar">
       <div class="logo">
-        <img src={logo} alt="JC# Logo" />
+        <Link to="/">
+          <img src={logo} alt="JC# Logo" />
+        </Link>
       </div>
       <div class={`burger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <span />
