@@ -6,13 +6,13 @@ import githubLogo from '../../assets/github-logo.png';
 import emailLogo from '../../assets/outlook-logo.png';
 
 const Contact = () => (
-  <div className="content-div">
+  <div class="content-div">
     <h1>Contact</h1>
     <p>
         If you would like to get in touch with me, feel free to reach out via any of the platforms below.
         I am always open to discussing new opportunities, collaborations, or simply connecting with like-minded individuals.
     </p>
-    <div className="gradient-divider"></div>
+    <div class="gradient-divider"></div>
     <p>
       You can find me on LinkedIn, GitHub, or send me an email. I look forward to hearing from you!
     </p>

@@ -3,14 +3,14 @@ import '../Global.css';
 import './Education.css';
 
 const Education = () => (
-  <div className="content-div">
+  <div class="content-div">
     <h1>Education</h1>
     <p>
       Below is a summary of my educational background, including certifications and courses that have contributed to my professional development.
       If you have any questions or would like to discuss my education further, please feel free to reach out!
     </p>
-    <div className="gradient-divider"></div>
-    <table className="education-table">
+    <div class="gradient-divider"></div>
+    <table class="education-table">
       <thead>
         <tr>
           <th>Course Name</th>

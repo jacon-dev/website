@@ -9,16 +9,16 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="navbar">
-      <div className="logo">
+    <nav class="navbar">
+      <div class="logo">
         <img src={logo} alt="JC# Logo" />
       </div>
-      <div className={`burger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+      <div class={`burger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <span />
         <span />
         <span />
       </div>
-      <ul className={`nav-links ${isOpen ? 'show' : ''}`}>
+      <ul class={`nav-links ${isOpen ? 'show' : ''}`}>
         <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
         <li><Link to="/skills" onClick={toggleMenu}>Skills</Link></li>
         <li><Link to="/achievements" onClick={toggleMenu}>Achievements</Link></li>

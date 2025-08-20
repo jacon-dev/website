@@ -14,7 +14,7 @@ const Experience = () => {
   const roles = company.roles;
 
   return (
-    <div className="content-div">
+    <div class="content-div">
       <h1>Experience</h1>
       <p>
         Below you will find a timeline of my professional experience, detailing the companies I've worked for, the roles I've held, and the key contributions I've made.
@@ -22,31 +22,37 @@ const Experience = () => {
         If you have any questions or would like to discuss my experience further, please feel free to reach out!
       </p>    
       <div class="gradient-divider"></div>
-      <div className="timeline-container">
-        <div className="timeline">
+      <div class="timeline-container">
+        <div class="timeline">
           {companies.map((company, idx) => (
-            <div
-              key={company.name}
-              className={`timeline-item${selectedCompany === idx ? ' active' : ''}`}
-              onClick={() => {
-                setSelectedCompany(idx);
-                setSelectedRole(0);
-              }}
-            >
-              <div className="timeline-dot" />
-              <div className="timeline-label">
-                <strong>{company.name}</strong>
-                <span>{company.period}</span>
+            
+            <React.Fragment key={company.name}>
+              <div
+                key={company.name}
+                class={`timeline-item${selectedCompany === idx ? ' active' : ''}`}
+                onClick={() => {
+                  setSelectedCompany(idx);
+                  setSelectedRole(0);
+                }}
+              >
+                <div class="timeline-dot" />
+                <div class="timeline-label">
+                  <strong>{company.name}</strong>
+                  <span>{company.period}</span>
+                </div>
               </div>
-            </div>
+              {idx < companies.length - 1 && (
+                <div class="timeline-line"></div>
+              )}
+            </React.Fragment>
           ))}
         </div>
-        <div className="timeline-details">
-          <div className="roles-list">
+        <div class="timeline-details">
+          <div class="roles-list">
             {roles.map((role, idx) => (
               <div
                 key={role.title}
-                className={`role-item${selectedRole === idx ? ' active' : ''}`}
+                class={`role-item${selectedRole === idx ? ' active' : ''}`}
                 onClick={() => setSelectedRole(idx)}
                 style={{ cursor: 'pointer', marginBottom: '10px' }}
               >
@@ -54,11 +60,14 @@ const Experience = () => {
               </div>
             ))}
           </div>
-          <div className="role-details">
+          <div class="role-details">
             {roles[selectedRole].details}
           </div>
         </div>
       </div>
+      <sub>
+        My previous career history is not techncial so its excluded from this timeline. If you want to know more about what I did before my IT career, please feel free to reach out!
+      </sub>
     </div>
   );
 };
