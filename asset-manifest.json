@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.f8b2ba88.css",
-    "main.js": "/website/static/js/main.3c6292d8.js",
-    "static/media/nav-logo.png": "/website/static/media/nav-logo.27c90f6d1bf314f8edb1.png",
-    "static/media/profile.jpg": "/website/static/media/profile.238b3e789ce272360288.jpg",
-    "static/media/outlook-logo.png": "/website/static/media/outlook-logo.85a940e74dc7cd4afbf8.png",
-    "static/media/github-logo.png": "/website/static/media/github-logo.e27c1c6712cfa863fb05.png",
-    "index.html": "/website/index.html",
-    "main.f8b2ba88.css.map": "/website/static/css/main.f8b2ba88.css.map",
-    "main.3c6292d8.js.map": "/website/static/js/main.3c6292d8.js.map"
+    "main.css": "/static/css/main.f8b2ba88.css",
+    "main.js": "/static/js/main.97227d74.js",
+    "static/media/nav-logo.png": "/static/media/nav-logo.27c90f6d1bf314f8edb1.png",
+    "static/media/profile.jpg": "/static/media/profile.238b3e789ce272360288.jpg",
+    "static/media/outlook-logo.png": "/static/media/outlook-logo.85a940e74dc7cd4afbf8.png",
+    "static/media/github-logo.png": "/static/media/github-logo.e27c1c6712cfa863fb05.png",
+    "index.html": "/index.html",
+    "main.f8b2ba88.css.map": "/static/css/main.f8b2ba88.css.map",
+    "main.97227d74.js.map": "/static/js/main.97227d74.js.map"
   },
   "entrypoints": [
     "static/css/main.f8b2ba88.css",
-    "static/js/main.3c6292d8.js"
+    "static/js/main.97227d74.js"
   ]
 }
